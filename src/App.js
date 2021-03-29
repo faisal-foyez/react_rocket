@@ -12,20 +12,27 @@ const App = () => {
 
   
   const onStartEngine = () => {
-    setStartEngine(true);
-
-    setTimeout(() => {
-      setStartRocket(true);
+    if(!releasePayload){
+      setStartEngine(true);
+  
       setTimeout(() => {
-        setReleasePayload(true);
+        setStartRocket(true);
         setTimeout(() => {
-          setStartEngine(false);
-          setStartRocket(false);
+          setReleasePayload(true);
+          setTimeout(() => {
+            setStartEngine(false);
+            setStartRocket(false);
+          }, 5000);
         }, 5000);
       }, 5000);
-    }, 5000);
-    
-  }
+      
+    }
+    else{
+      setStartEngine(false);
+      setStartRocket(false);
+      setReleasePayload(false);
+    }
+    }
 
 
   return (
