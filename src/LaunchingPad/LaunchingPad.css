@@ -1,0 +1,29 @@
+.launching_pad{
+  height: 400px;
+  width: 400px;
+  background-color: rgb(153, 153, 153);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  left:50%;
+  transform: translate(-50%) rotateX(60deg);
+}
+
+.launch_btn{
+  position: absolute;
+  bottom: 8px;
+  left:50%;
+  transform: translate(-50%);
+  border:none;
+  outline: none;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(212, 61, 61);
+  color: white;
+  border-radius: 50%;
+  box-shadow: 3px 3px 6px rgba(0,0,0,.6);
+}
+
+.launch_btn:active{
+   background-color: rgb(134, 25, 25);
+}

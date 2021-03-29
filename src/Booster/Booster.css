@@ -1,0 +1,21 @@
+.booster{
+    height: 250px;
+    width: 30px;
+    align-self: flex-end;
+}
+
+.booster_top{
+    height: 50px;
+    width: 30px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border:1px solid rgba(0,0,0,.3);
+    background-color: white;
+}
+
+.booster_bottom{
+    height: 200px;
+    width: 30px;
+    border:1px solid rgba(0,0,0,.3);
+    background-color: white;
+}

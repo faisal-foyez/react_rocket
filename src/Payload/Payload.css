@@ -1,0 +1,22 @@
+.payload{
+    height: 400px;
+    width: 30px;
+    
+}
+
+.payload_top{
+    height: 100px;
+    width: 65px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border:1px solid rgba(0,0,0,.3);
+    transform: translate(-17px,1px);
+    background-color: white;
+}
+
+.payload_bottom{
+    height: 300px;
+    width: 30px;
+    border:1px solid rgba(0,0,0,.3);
+    background-color: white;
+}
